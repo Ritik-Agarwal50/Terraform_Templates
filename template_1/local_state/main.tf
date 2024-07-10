@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "temp_server" {
-  ami = "ami-0c55b159cbfafe1f0"
+  ami = "ami details"
   instance_type = "t3.micro"
 
   tags = {
