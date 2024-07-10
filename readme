@@ -1,0 +1,10 @@
+Four Imp commands for Terrform
+--> terrform init
+--> terraform plan   --> used to play in dry run the script
+--> terraform apply
+--> terraform destroy
+
+
+terraform.tfstate file should not be shared with anyone.
+It should be stored in isloate place.
+Never edit tfstate files.

@@ -1,0 +1,4 @@
+To Write a Terraform script follow below steps -->
+  - First Write terraform block. Which contain required providers like azure,aws etc
+  = Then config the provider region
+  - After above stuff start writing resources which contain instance_type, tags , ami etc
