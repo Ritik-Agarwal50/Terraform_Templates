@@ -1,5 +1,5 @@
 Four Imp commands for Terrform
---> terrform init
+--> terrform init  --> initilize the terraform 
 --> terraform plan   --> used to play in dry run the script
 --> terraform apply
 --> terraform destroy
