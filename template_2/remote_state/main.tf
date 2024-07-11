@@ -1,5 +1,12 @@
 //Defineing aws s3 bucket and Ec2 instance
 terraform{
+    backend "s3" {
+        bucket = "name_of_the_bucket"
+        key    = "some_env/terraform.tfstate"
+        region = "region_name"
+        dynamodb_table = "value_of_dynamodb_table_name"
+      
+    }
     required_providers {
         aws = {
             source  = "hashicorp/aws"
@@ -10,7 +17,7 @@ terraform{
 }
 //Region name, It is not manditorty to mention the region name in the provider block
 provider "aws" {
-    region = "ap-south-1"
+    region = "region"
 }
 
 //Creating a s3 bucket
